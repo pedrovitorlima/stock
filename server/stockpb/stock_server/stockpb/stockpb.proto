@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package stock;
+option go_package="./stockpb";
+
+service StockService{}
+
+//protoc stockpb.proto --go_out=. --go-grpc_out=.
+
+
