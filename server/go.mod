@@ -1,4 +1,4 @@
-module stock
+module github.com/pedrovitorlima/stock/server/stockpb
 
 go 1.17
 

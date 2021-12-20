@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package stock;
+option go_package="./stockpb";
+
+service StockService{}

@@ -57,5 +57,5 @@ var StockService_ServiceDesc = grpc.ServiceDesc{
 	HandlerType: (*StockServiceServer)(nil),
 	Methods:     []grpc.MethodDesc{},
 	Streams:     []grpc.StreamDesc{},
-	Metadata:    "stockpb.proto",
+	Metadata:    "stock.proto",
 }

@@ -2,7 +2,7 @@
 // versions:
 // 	protoc-gen-go v1.26.0
 // 	protoc        v3.17.3
-// source: stockpb.proto
+// source: stock.proto
 
 package stockpb
 
@@ -19,17 +19,17 @@ const (
 	_ = protoimpl.EnforceVersion(protoimpl.MaxVersion - 20)
 )
 
-var File_stockpb_proto protoreflect.FileDescriptor
+var File_stock_proto protoreflect.FileDescriptor
 
-var file_stockpb_proto_rawDesc = []byte{
-	0x0a, 0x0d, 0x73, 0x74, 0x6f, 0x63, 0x6b, 0x70, 0x62, 0x2e, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x12,
-	0x05, 0x73, 0x74, 0x6f, 0x63, 0x6b, 0x32, 0x0e, 0x0a, 0x0c, 0x53, 0x74, 0x6f, 0x63, 0x6b, 0x53,
-	0x65, 0x72, 0x76, 0x69, 0x63, 0x65, 0x42, 0x0b, 0x5a, 0x09, 0x2e, 0x2f, 0x73, 0x74, 0x6f, 0x63,
-	0x6b, 0x70, 0x62, 0x62, 0x06, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x33,
+var file_stock_proto_rawDesc = []byte{
+	0x0a, 0x0b, 0x73, 0x74, 0x6f, 0x63, 0x6b, 0x2e, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x12, 0x05, 0x73,
+	0x74, 0x6f, 0x63, 0x6b, 0x32, 0x0e, 0x0a, 0x0c, 0x53, 0x74, 0x6f, 0x63, 0x6b, 0x53, 0x65, 0x72,
+	0x76, 0x69, 0x63, 0x65, 0x42, 0x0b, 0x5a, 0x09, 0x2e, 0x2f, 0x73, 0x74, 0x6f, 0x63, 0x6b, 0x70,
+	0x62, 0x62, 0x06, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x33,
 }
 
-var file_stockpb_proto_goTypes = []interface{}{}
-var file_stockpb_proto_depIdxs = []int32{
+var file_stock_proto_goTypes = []interface{}{}
+var file_stock_proto_depIdxs = []int32{
 	0, // [0:0] is the sub-list for method output_type
 	0, // [0:0] is the sub-list for method input_type
 	0, // [0:0] is the sub-list for extension type_name
@@ -37,26 +37,26 @@ var file_stockpb_proto_depIdxs = []int32{
 	0, // [0:0] is the sub-list for field type_name
 }
 
-func init() { file_stockpb_proto_init() }
-func file_stockpb_proto_init() {
-	if File_stockpb_proto != nil {
+func init() { file_stock_proto_init() }
+func file_stock_proto_init() {
+	if File_stock_proto != nil {
 		return
 	}
 	type x struct{}
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: file_stockpb_proto_rawDesc,
+			RawDescriptor: file_stock_proto_rawDesc,
 			NumEnums:      0,
 			NumMessages:   0,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_stockpb_proto_goTypes,
-		DependencyIndexes: file_stockpb_proto_depIdxs,
+		GoTypes:           file_stock_proto_goTypes,
+		DependencyIndexes: file_stock_proto_depIdxs,
 	}.Build()
-	File_stockpb_proto = out.File
-	file_stockpb_proto_rawDesc = nil
-	file_stockpb_proto_goTypes = nil
-	file_stockpb_proto_depIdxs = nil
+	File_stock_proto = out.File
+	file_stock_proto_rawDesc = nil
+	file_stock_proto_goTypes = nil
+	file_stock_proto_depIdxs = nil
 }
